@@ -5,10 +5,23 @@ import { CATEGORIES } from '../data';
 import { Calendar, Clock, ChevronRight } from 'lucide-react';
 
 export const AdSlot = ({ format = 'horizontal' }: { format?: 'horizontal' | 'rectangle' }) => {
+  React.useEffect(() => {
+    try {
+      // @ts-ignore
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error(e);
+    }
+  }, []);
+
   return (
-    <div className={`bg-slate-100 border-2 border-dashed border-slate-300 flex flex-col items-center justify-center text-slate-400 p-4 rounded-lg my-8 ${format === 'horizontal' ? 'w-full h-24' : 'w-full aspect-square md:w-[300px] md:h-[250px]'}`}>
-      <span className="text-sm font-medium tracking-widest uppercase">Advertisement</span>
-      <span className="text-xs mt-1">Google AdSense Space</span>
+    <div className={`my-8 ${format === 'horizontal' ? 'w-full' : 'w-full md:w-[300px]'}`}>
+      <ins className="adsbygoogle"
+           style={{ display: 'block' }}
+           data-ad-client="ca-pub-6253973772425345"
+           data-ad-slot="3986253134"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </div>
   );
 };
