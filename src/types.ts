@@ -1,10 +1,4 @@
-export type Category = 
-  | 'AI Tool Reviews'
-  | 'AI Tutorials & How-To Guides'
-  | 'Best AI Tools Lists'
-  | 'AI for Business & Marketing'
-  | 'AI News & Trends'
-  | 'Free vs Paid AI Tools';
+export type Category = string;
 
 export interface Author {
   name: string;
