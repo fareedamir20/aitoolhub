@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { BookOpen } from 'lucide-react';
 
 export const EditorialPolicy = () => {
@@ -75,7 +76,7 @@ export const EditorialPolicy = () => {
 
         <h2>6. Contact the Editors</h2>
         <p>
-          If you have questions about our editorial guidelines, or if you spot an error or outdated pricing in one of our articles, please reach out to us via our <a href="/contact">Contact Us</a> page or email us at <strong>contact@aistoolshubs.com</strong>.
+          If you have questions about our editorial guidelines, or if you spot an error or outdated pricing in one of our articles, please reach out to us via our <Link to="/contact">Contact Us</Link> page or email us at <strong>contact@aistoolshubs.com</strong>.
         </p>
       </div>
     </div>

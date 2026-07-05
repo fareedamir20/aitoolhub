@@ -18,7 +18,7 @@ export const Category = () => {
       <Helmet>
         <title>{decodedCategory} AI Tools & Guides | AI Tools Hub</title>
         <meta name="description" content={`Discover the best tools, tutorials, and guides for ${decodedCategory}. Explore our expert reviews and stay ahead of the curve.`} />
-        <link rel="canonical" href={`https://example.com/category/${encodeURIComponent(decodedCategory)}`} />
+        <link rel="canonical" href={`https://aistoolshubs.netlify.app/category/${encodeURIComponent(decodedCategory)}`} />
       </Helmet>
       
       {/* Breadcrumbs */}

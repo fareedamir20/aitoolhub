@@ -62,14 +62,14 @@ export const Article = () => {
     "author": {
       "@type": "Person",
       "name": post.author.name,
-      "url": "https://example.com/about"
+      "url": "https://aistoolshubs.netlify.app/about"
     },
     "publisher": {
       "@type": "Organization",
       "name": "AI Tools Hub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://example.com/logo.png"
+        "url": "https://aistoolshubs.netlify.app/logo.png"
       }
     },
     "description": post.seo.metaDescription
@@ -83,19 +83,19 @@ export const Article = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://example.com/"
+        "item": "https://aistoolshubs.netlify.app/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": post.category,
-        "item": `https://example.com/category/${encodeURIComponent(post.category)}`
+        "item": `https://aistoolshubs.netlify.app/category/${encodeURIComponent(post.category)}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://example.com/post/${post.slug}`
+        "item": `https://aistoolshubs.netlify.app/post/${post.slug}`
       }
     ]
   };
@@ -142,7 +142,7 @@ export const Article = () => {
         <meta property="og:image" content={post.featuredImage} />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href={`https://example.com/post/${post.slug}`} />
+        <link rel="canonical" href={`https://aistoolshubs.netlify.app/post/${post.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { FileText } from 'lucide-react';
 
 export const TermsOfService = () => {
@@ -73,7 +74,7 @@ export const TermsOfService = () => {
 
         <h2>8. Privacy Policy</h2>
         <p>
-          Your use of the website is also subject to our Privacy Policy. Please review our <a href="/privacy-policy">Privacy Policy</a>, which informs users of our data collection practices and your rights regarding personalized advertising.
+          Your use of the website is also subject to our Privacy Policy. Please review our <Link to="/privacy-policy">Privacy Policy</Link>, which informs users of our data collection practices and your rights regarding personalized advertising.
         </p>
 
         <h2>9. Governing Law</h2>

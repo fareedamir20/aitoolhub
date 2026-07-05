@@ -12,8 +12,8 @@ export const Home = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "AI Tools Hub",
-    "url": "https://example.com",
-    "logo": "https://example.com/logo.png",
+    "url": "https://aistoolshubs.netlify.app",
+    "logo": "https://aistoolshubs.netlify.app/logo.png",
     "description": "Discover the best AI tools, software, and platforms for productivity, content creation, business, and everyday use."
   };
 
@@ -22,7 +22,7 @@ export const Home = () => {
       <Helmet>
         <title>AI Tools Hub | Expert Reviews, Tutorials & Lists</title>
         <meta name="description" content="Discover the best AI tools, software, and platforms for productivity, content creation, business, and everyday use. Read our expert reviews and tutorials." />
-        <link rel="canonical" href="https://example.com" />
+        <link rel="canonical" href="https://aistoolshubs.netlify.app" />
         <script type="application/ld+json">
           {JSON.stringify(orgSchema)}
         </script>
