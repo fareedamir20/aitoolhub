@@ -1,0 +1,6 @@
+{
+  "name": "AI Tools Hub",
+  "description": "An SEO-optimized blogging platform focused on AI tools, trends, and tutorials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
