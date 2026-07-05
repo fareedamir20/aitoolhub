@@ -31,8 +31,8 @@ export const Layout = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-6">
-              <Link to="/category/Reviews" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">Reviews</Link>
-              <Link to="/category/Tutorials" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">Tutorials</Link>
+              <Link to="/category/AI Tool Reviews" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">Reviews</Link>
+              <Link to="/category/AI Tutorials" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">Tutorials</Link>
               <Link to="/about" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">About</Link>
               <Link to="/contact" className="text-slate-600 hover:text-blue-600 px-2 py-2 text-sm font-semibold transition-colors">Contact</Link>
             </nav>
@@ -62,8 +62,8 @@ export const Layout = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-slate-200">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <Link to="/category/Reviews" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">Reviews</Link>
-              <Link to="/category/Tutorials" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">Tutorials</Link>
+              <Link to="/category/AI Tool Reviews" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">Reviews</Link>
+              <Link to="/category/AI Tutorials" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">Tutorials</Link>
               <Link to="/about" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">About Us</Link>
               <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-blue-600 hover:bg-slate-50">Contact</Link>
             </div>
